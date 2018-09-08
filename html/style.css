@@ -1,0 +1,481 @@
+@media screen and (min-width: 600px) {
+    
+#cor1,#cor2,#cor3,#cor4,#cor5,#cor6,#cor7,#cor8{
+        width: 50px;
+        height: 50px;
+}
+
+.ali{
+    align-content: center;
+    position:relative;
+    left: 35%;
+}
+
+    #jogo{
+        width: 90%;
+    }
+    .branco, .preto{
+        width: 40px;
+        height: 40px;
+    }
+    
+.pinos{
+    width: 10px;
+    height: 10px;
+}
+.pinos{
+    height: 30px;
+    width: 30px;
+    }  
+    
+.bola{
+        height: 60%;
+        width: 80px;
+    }
+.zu{
+    height: 30px;
+    width: 30px;
+    }
+
+.num{
+height: 40%;
+    }
+.tabela{
+    width: 10%;
+    height: 100%;
+        
+    }
+.video{
+    float: center;
+    position: absolute;
+    left: 40%;
+    right: 30%;
+    width:350px; 
+    height:290px;
+}
+
+
+.regras2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 11%;
+}
+
+.regras{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.joao{
+    float:right;
+}
+
+.bruno{
+    float:left;
+}
+
+
+
+.container{
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.username1{
+	border: solid black;
+	padding: 10px;
+}
+
+.login{
+    width: 40%;
+    border-radius: 30px;
+	background-color: #8470FF;
+	padding: 2%;
+	display: inline-block;	
+	margin: -2% 27%;
+}
+
+
+.menu{
+	font-size: 45px;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	color: black;
+    border: solid 5px;
+    background-color: darkgrey;
+    padding: 25px;
+}
+    
+.menu2{
+    font-family: sans-serif;
+    width: 10%;
+    border: none;
+    color: black;
+    background-color: darkgray;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 2px 1px;
+    cursor: pointer;
+    display: inline-block;
+    }
+    
+.je{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    }    
+
+.pont{
+	font-size: 45px;
+	position: absolute;
+	top: 70%;
+	right: 15%;
+	color: black;
+    border: solid 5px;
+    background-color: darkgrey;
+    padding: 25px;
+}
+
+.jogarNovo{
+	font-size: 45px;
+	position: absolute;
+	top: 70%;
+	left: 7%;
+	color: black;
+    border: solid 5px;
+    background-color: darkgrey;
+    padding: 25px;
+}
+
+.infoeregras{
+	font-size: 45px;
+	position: absolute;
+	top: 50%;
+	right: 15%;
+	color: black;
+    border: solid 5px;
+    background-color: darkgrey;
+    padding: 25px;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 20px 50px 60px 20px;
+  border-radius: 20px;
+  background: black;
+  background: white;
+}
+.close {
+  background: black;
+  color: white;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: #00d9ff;
+}
+
+/* imagem depois do menu */
+.imagemprinc{
+    width: 50%;
+    height: 40%;
+}
+
+.gameover1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.gameoverimg1{
+    width: 19%;
+}
+
+.gameoverimg2{
+    width: 23%;
+}
+
+.jogo{
+    width: 53%;
+}
+
+.musica{
+    float: center;
+}
+
+.irlogin{
+    float: right;
+    color: black;
+    position: absolute; top: 590px; left: 1100px;
+}
+
+.username, .registo{
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 10px;
+    color: black;
+    font-family: ar delaney;
+}
+
+.username{
+    font-size: 30px;
+}
+.registo{
+    font-size: 23px;
+    
+}
+
+.titulos{
+    font-size: 40px;
+    font-family: ar delaney;
+    text-align: center;
+    color:black; 
+}
+
+#login, #registar, #continuar, #menu{
+    font-family:"Trebuchet MS";
+    background-color:black;
+    font-size: 45px;
+    font-weight: bold;
+    border: solid;
+   
+}
+
+.container{
+    text-align: center;
+    font-size: 21px;
+}
+
+#registo{
+     text-align: center;
+    font-size: 21px;
+}
+
+.imagem{
+    float: left;
+}
+
+.imagem2{
+    float:right;
+}
+
+.imagemjogo{
+    height: 0%;
+    width: 30%;
+}
+
+.voltar{
+    border-radius: 5px;
+	position: relative;
+    top: -20px;;
+	left: 2%;
+    color: black;
+    border: solid;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+    
+.go{
+    border-radius: 5px;
+	position: relative;
+	left: 2%;
+    color: black;
+    border: solid;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+    text-align: right;
+    }
+
+.mododejogo{
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+    border: solid;
+    margin-right: 520px;
+    margin-left: 520px; 
+}
+
+#botaologin{
+    font-size: 20px;
+}
+
+#novojogo{
+    color: red;
+}
+
+.versao{
+    color: darkslategrey;
+    text-align: right;
+    font-size: 30px;
+    font-family: sans-serif
+}
+
+
+html{
+    background-size: cover;
+    background-image: url(http://www.des1gnon.com//wp-content/uploads/2014/07/Des1gnon_Background_geometrico_06.jpg);
+    
+}
+
+/* MENU */
+/*Botões do menu, login, registar*/
+
+.button {
+	background-color:darkslategrey;
+    width: 30%;
+    color: white;
+    padding: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* Botão novo jogo do menu */
+.nj {
+    width: 70%;
+    color: white;
+    background-color: dimgrey;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow:0 5px 0 #003f00;
+}
+
+.nj:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+/*imagem menu */
+
+.imagemmenu{
+    width: 50%;
+    height: 50%;
+}
+
+/* Fim do menu */
+
+.sub{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.audio{
+    margin-left: 38%;
+}
+
+
+.pontos{
+    font-family: Impact;
+    font-size: 35px;
+}
+
+.single{
+    font-family: sans-serif;
+    background-color: red;
+    color: white;
+}
+
+.multi{
+    font-family: sans-serif;
+    background-color: green;
+    color: white;
+}
+
+.coop{
+    font-family: sans-serif;
+    background-color: blue;
+    color: white;
+}
+
+.gold{
+    background-color: gold
+}
+
+.silver{
+    background-color: silver
+}
+
+.bronze{
+    background-color: sandybrown
+}
+
+.tabela{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-color: white
+}
+
+
+.modos{
+    text-align: left;
+}
+
+.gameover{
+    text-decoration: none;
+    display: inline-block;
+    width: 600px;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    border:  solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.irlogin2{
+    background-color: white;
+}
+    
+}

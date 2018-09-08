@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <!-- myFirstProject.html -->
+	<title>MasterMind - LOGIN</title>
+    <link rel="icon" href="mastermindt.png">
+    <script src="signup.js"></script>
+</head>
+    <body>
+        <h1><center><a href="MasterMind_Menu.html"><img src="MasterMind2.png" width="510" height="210"></a></center></h1>
+        <div>
+			<form autocomplete="on" name="form1"> 
+				<h1 class="titulos"> SIGN UP </h1>
+                <nav class="login">
+                    
+				<p> <label class="registo" for="usernamesignup" class="uname" data-icon="u">Your username:</label>
+					<input name="text1" id="registo" class="registo" required="required" type="text" placeholder="" /></p>
+                    
+				<p> <label class="registo" for="emailsignup" class="youmail" data-icon="e" > Your email:</label>
+					<input name="text2" id="email" class="registo" name="emailsignup" required="required" type="email" placeholder=""/> </p>
+                    
+				<p><label class="registo" for="passwordsignup" class="youpasswd" data-icon="p">Your password:</label>
+					<input name="text3" id="pass" class="registo" required="required" type="password" placeholder=""/></p>
+                    
+				<button onclick="store()" class="button"  >Registo</button>
+                </nav>
+				<p class="irlogin">  
+                    Already a member?
+					<a href="MasterMind_Login.html" class="irlogin2" >LOGIN</a></p>
+			</form>
+		</div>
+            <a class="voltar" href="MasterMind_NovoJogo.html">BACK</a>
+        <p><a class="voltar" href="MasterMind_Menu.html">MENU</a></p>
+    </body>
+</html>
